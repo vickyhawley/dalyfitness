@@ -1,8 +1,9 @@
-import Image from "next/image";
+import { Navbar } from "./Components/Navbar";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Navbar />
       <div className="flex items-center justify-center">
         <h1>DalyFitness</h1>
         <p>
